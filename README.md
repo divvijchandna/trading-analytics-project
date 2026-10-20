@@ -14,6 +14,7 @@ The setting is Polymarket. Cases where large traders are suspected of trading on
 | `analysis_a1.py` | Module A1: event study of the window before news, with placebo inference |
 | `analysis_a2.py` | Module A2: microstructure metrics (VPIN, Kyle's lambda) before news vs normal periods |
 | `analysis_a3.py` | Module A3: wallet forensics and a detection rule (fresh, single-topic, one-sided, late buying) |
+| `analysis_a4.py` | Module A4: are large / flagged traders followed, how does price respond, and what do followers pay and earn |
 | `markets.csv` | Market identifiers, news timestamps and sources |
 | `feasibility.md` | Data feasibility report and source log |
 | `data/raw/` | Cached API pulls (parquet) |
@@ -31,6 +32,7 @@ python3 -m venv .venv
 .venv/bin/python analysis_a1.py
 .venv/bin/python analysis_a2.py
 .venv/bin/python analysis_a3.py
+.venv/bin/python analysis_a4.py
 ```
 
 All data come from public, keyless Polymarket APIs.
