@@ -76,6 +76,11 @@ GROUP = {
     "fomc_2026_07_nochange": "control", "fomc_2026_09_hike25": "control",
     "bdo_2025_dembele": "control", "iran_strike_2025_06_control": "control",
     "bdo_2026_kane": "open",
+    # related markets resolved by the same news as a leak event (see MARKETS)
+    "maduro_out_mar31": "treatment", "maduro_out_feb28": "treatment",
+    "maduro_out_dec31_2026": "treatment", "us_forces_venezuela_jan31": "treatment",
+    "iran_usisrael_by_feb28": "treatment", "nobel_trump": "treatment",
+    "nfl_mvp_lamar": "treatment", "nfl_mvp_burrow": "treatment", "nfl_mvp_goff": "treatment",
 }  # everything else = award panel (provisional anchors, heavy favourites)
 
 
