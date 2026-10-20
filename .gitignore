@@ -1,0 +1,8 @@
+# Local environment
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Run logs (regenerated on every run)
+*.log
