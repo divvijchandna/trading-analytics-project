@@ -13,6 +13,7 @@ The setting is Polymarket. Cases where large traders are suspected of trading on
 | `polymarket_feasibility.py` | Data pipeline: market identification (Gamma API), trade download with wallets (Data API), cleaning, validation (volume, price, on-chain receipts), per-market charts |
 | `analysis_a1.py` | Module A1: event study of the window before news, with placebo inference |
 | `analysis_a2.py` | Module A2: microstructure metrics (VPIN, Kyle's lambda) before news vs normal periods |
+| `analysis_a3.py` | Module A3: wallet forensics and a detection rule (fresh, single-topic, one-sided, late buying) |
 | `markets.csv` | Market identifiers, news timestamps and sources |
 | `feasibility.md` | Data feasibility report and source log |
 | `data/raw/` | Cached API pulls (parquet) |
@@ -29,6 +30,7 @@ python3 -m venv .venv
 .venv/bin/python polymarket_feasibility.py   # uses cached data/raw; --refresh re-downloads
 .venv/bin/python analysis_a1.py
 .venv/bin/python analysis_a2.py
+.venv/bin/python analysis_a3.py
 ```
 
 All data come from public, keyless Polymarket APIs.
