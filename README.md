@@ -40,7 +40,7 @@ It compares events where suspected informed trading was reported (Nobel Peace Pr
 
 **A real-time monitor works only for scheduled news (A6).** Replaying the A3 rule live, the final 24 hours before scheduled announcements produced 49 alerts in leak markets, 6 in controls and 0 for award favourites. It is an alarm, not a direction signal: 23 of the 49 pointed the right way. For unscheduled events it is too noisy (151 alerts in 7 days for Iran 2025).
 
-**Open case: Ballon d'Or 2026.** Votes closed on 28 September and the ceremony was on 26 October, so the winner was fixed but secret in between. On 9 October Harry Kane's price rose from 56% to about 62% with no news found. A new wallet (0x3ed2c452…) then bought about $30k of Kane at an average of 65.7¢. It fits the rule only partly, because it bought after the move began.
+**Open case: Ballon d'Or 2026.** Votes closed on 28 September and the ceremony was on 26 October, so the winner was fixed but secret in between. On 9 October Harry Kane's price rose from 56% to about 62% with no news found. A new wallet (0x3ed2c452…) then bought about $30k of Kane at an average of 65.7¢. It fits the rule only partly, because it bought after the move began. This was an open question while the project ran; after it finished, Kane was announced as the winner.
 
 Recommendations for market makers, large traders, platforms and regulators are in [`mitigation.md`](mitigation.md). The full data report and source log is [`feasibility.md`](feasibility.md).
 
