@@ -151,14 +151,16 @@ def profile(wallet, news):
 
 def profiles(pairs):
     cache = pd.read_parquet(CACHE) if CACHE.exists() else pd.DataFrame(columns=["wallet", "news_utc"])
+    cache = cache.drop_duplicates(["wallet", "news_utc"], keep="last")
     have = set(zip(cache["wallet"], cache["news_utc"]))
-    todo = [(w, n) for w, n in pairs if (w, n.isoformat()) not in have]
+    todo = list(dict.fromkeys((w, n) for w, n in pairs if (w, n.isoformat()) not in have))
     print(f"wallet profiles: {len(pairs) - len(todo)} cached, {len(todo)} to fetch")
     if todo:
         with ThreadPoolExecutor(max_workers=6) as ex:
             new = list(ex.map(lambda x: profile(*x), todo))
         cache = pd.concat([cache, pd.DataFrame(new)], ignore_index=True)
-        cache.to_parquet(CACHE, index=False)
+    cache = cache.drop_duplicates(["wallet", "news_utc"], keep="last")
+    cache.to_parquet(CACHE, index=False)
     return cache
 
 

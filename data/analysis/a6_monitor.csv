@@ -1,0 +1,27 @@
+key,group,alerts,alerts_towards_outcome,alerts_against_outcome,first_correct_alert,warning_hours,share_of_transfer_after_first_alert,transfer_usd,cluster_alert_fires,cluster_alert_towards_outcome,cluster_alert_hours_before_news
+nobel_machado,treatment,19,13,6,2025-10-09 22:46:49+00:00,10.219722222222222,1.0,124513.01505300845,True,True,8.198055555555555
+maduro_out_jan31,treatment,5,5,0,2025-12-31 00:20:15+00:00,77.67916666666666,1.0,629809.4210458911,True,True,0.42194444444444446
+fomc_2026_07_nochange,control,16,14,2,2026-07-23 13:49:52+00:00,148.1688888888889,,,True,True,50.47083333333333
+fomc_2026_09_hike25,control,38,6,32,2026-09-09 23:14:24+00:00,162.76,,,True,True,151.34333333333333
+bdo_2024_rodri,public_news,0,0,0,,,,,False,,
+bdo_2024_vinicius,public_news,1,1,0,2024-10-28 00:37:10+00:00,6.747222222222222,,,False,,
+bdo_2025_dembele,control,0,0,0,,,,,False,,
+bdo_2026_kane,open,9,9,0,2026-10-02 22:46:17+00:00,162.89527777777778,,,True,True,33.68472222222222
+award_nba_mvp_2026,award_panel,0,0,0,,,,,False,,
+award_nba_mvp_2025,award_panel,0,0,0,,,,,False,,
+award_nfl_mvp_2025,treatment,21,21,0,2025-01-31 02:24:46+00:00,167.5872222222222,1.0,32426.23574671677,True,True,163.45166666666665
+award_nfl_oroy_2025,award_panel,0,0,0,,,,,False,,
+award_heisman_2024,award_panel,0,0,0,,,,,False,,
+award_nba_dpoy_2026,award_panel,0,0,0,,,,,False,,
+award_nba_coy_2026,award_panel,0,0,0,,,,,False,,
+iran_strike_2026_02_28,treatment,4,4,0,2026-02-27 06:00:28+00:00,24.15888888888889,1.0,29233.276163300692,True,True,3.0419444444444443
+iran_strike_2025_06_control,control,151,83,68,2025-06-15 04:29:06+00:00,163.29833333333335,1.0,97941.80536552452,True,True,129.04583333333332
+maduro_out_mar31,treatment,0,0,0,,,,,False,,
+maduro_out_feb28,treatment,1,1,0,2026-01-03 03:48:21+00:00,2.2108333333333334,1.0,67186.44904301522,False,,
+maduro_out_dec31_2026,treatment,1,0,1,,,,,False,,
+us_forces_venezuela_jan31,treatment,0,0,0,,,,,False,,
+iran_usisrael_by_feb28,treatment,5,5,0,2026-02-24 21:25:38+00:00,80.73944444444444,1.0,54158.16334298378,True,True,10.6725
+nobel_trump,treatment,20,0,20,,,,,True,False,28.954166666666666
+nfl_mvp_lamar,treatment,14,7,7,2025-01-31 15:53:10+00:00,154.11388888888888,1.0,4980.704126137135,True,True,150.56583333333333
+nfl_mvp_burrow,treatment,0,0,0,,,,,False,,
+nfl_mvp_goff,treatment,0,0,0,,,,,False,,

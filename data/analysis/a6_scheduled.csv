@@ -1,0 +1,16 @@
+key,role,alerts_24h,towards_outcome
+nobel_machado,leak,19.0,13.0
+nobel_trump,leak,17.0,0.0
+award_nfl_mvp_2025,leak,8.0,8.0
+nfl_mvp_lamar,leak,5.0,2.0
+nfl_mvp_burrow,leak,0.0,0.0
+nfl_mvp_goff,leak,0.0,0.0
+fomc_2026_07_nochange,control,3.0,2.0
+fomc_2026_09_hike25,control,3.0,0.0
+bdo_2025_dembele,control,0.0,0.0
+award_nba_mvp_2026,award_panel,0.0,0.0
+award_nba_mvp_2025,award_panel,0.0,0.0
+award_nfl_oroy_2025,award_panel,0.0,0.0
+award_heisman_2024,award_panel,0.0,0.0
+award_nba_dpoy_2026,award_panel,0.0,0.0
+award_nba_coy_2026,award_panel,0.0,0.0
